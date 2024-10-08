@@ -1,3 +1,6 @@
+.navCont{
+    background-color: #080808;
+}
 .logo{
     border-radius: 25px;
 }
@@ -9,4 +12,28 @@
 }
 .navColor{
     background-color: #080808;
+}
+
+.home{
+    background-color: #080808;
+    color:white
+
+}
+.main-img{
+    width: 400px;
+}
+
+.spaceNav{
+
+    height: 20vh;
+    background-color: #080808;
+
+}
+
+.desBottom{
+    margin-bottom: 10vh;
+}
+.getInTouch{
+    margin-left: 10vb;
+    scale: 1.2;
 }
