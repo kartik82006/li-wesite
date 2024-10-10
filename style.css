@@ -58,8 +58,27 @@
     color: #b2b2b2;
     transition: ease all 1s;
     border:0px;
-    border-bottom:2px solid rgb(202, 21, 21);
+    border-radius: 15px;
+    margin: 4vb;
 }
+/* 
+Features border Colours */
+.red-col{
+    border-bottom:2px solid rgb(236, 12, 12);
+}
+.green-col{
+    border-bottom:2px solid rgb(6, 247, 110);
+}
+.blue-col{
+    border-bottom:2px solid rgb(10, 243, 247);
+}
+.yellow-col{
+    border-bottom: 2px solid rgb(252, 252, 0);
+}
+
+
+
+
 /* .list-group-item>h2{
     
     color: #B2B2B2;
@@ -68,19 +87,41 @@
 } */
 .list-group-item:hover{
     
-    background-color: rgb(202, 21, 21);
-    scale: 1.2;
+    
+    transform:scale(1.2);
     transition: ease all 1s;
     box-shadow: inset;
-    color:black;
     border:0px;
     border-bottom:1px solid white;
-
+    z-index:2;
+    
 
 }
-.icon{
-    width:inherit;
+
+.red-col:hover{
+background-color: rgb(236, 12, 12);
+    color:black;
 }
+.green-col:hover{
+    background-color: rgb(6, 247, 110);
+    color:black;
+}
+.blue-col:hover{
+    background-color: rgb(10, 243, 247);
+    color:black;
+}
+.yellow-col:hover{
+    background-color: rgb(252, 252, 0);
+    color: black;
+}
+
 .icon:hover{
     color:white;
 }
+
+.icon-list li:nth-child(1)::before {  
+    content: "f0eb" 
+}  
+.icon-list li:nth-child(2)::before {  
+    content: "\f00c"; /* Example icon (check) */  
+}  
