@@ -49,79 +49,54 @@
     margin-bottom: 2vh;
 
 }
+
 .features{
     background-color: #080808;
     color: white;
+
 }
-.list-group-item{
+
+.card{
+    margin: 20px;
+    color: white;
     background-color: #080808;
-    color: #b2b2b2;
-    transition: ease all 1s;
-    border:0px;
+    border-bottom:2px solid white ;
     border-radius: 15px;
-    margin: 4vb;
-}
-/* 
-Features border Colours */
-.red-col{
-    border-bottom:2px solid rgb(236, 12, 12);
-}
-.green-col{
-    border-bottom:2px solid rgb(6, 247, 110);
-}
-.blue-col{
-    border-bottom:2px solid rgb(10, 243, 247);
-}
-.yellow-col{
-    border-bottom: 2px solid rgb(252, 252, 0);
+
 }
 
-
-
-
-/* .list-group-item>h2{
-    
-    color: #B2B2B2;
+.card{
     transition: ease all 1s;
+}
 
-} */
-.list-group-item:hover{
-    
-    
-    transform:scale(1.2);
+.card-1{
+    border-bottom-color: red;
+}
+.card-2{
+    border-bottom-color: rgb(26, 213, 135);
+}
+.card-3{
+    border-bottom-color: rgb(73, 29, 231);
+}
+
+.card-4{
+    border-bottom-color: yellow;
+}
+.card:hover{
+    scale: 1.2;
     transition: ease all 1s;
-    box-shadow: inset;
-    border:0px;
-    border-bottom:1px solid white;
-    z-index:2;
-    
-
+    color: #080808;
+    border-bottom:#080808 ;
 }
-
-.red-col:hover{
-background-color: rgb(236, 12, 12);
-    color:black;
+.card-1:hover{
+    background-color: red;
 }
-.green-col:hover{
-    background-color: rgb(6, 247, 110);
-    color:black;
+.card-2:hover{
+    background-color:rgb(26, 213, 135);
 }
-.blue-col:hover{
-    background-color: rgb(10, 243, 247);
-    color:black;
+.card-3:hover{
+    background-color: rgb(73, 29, 231);
 }
-.yellow-col:hover{
-    background-color: rgb(252, 252, 0);
-    color: black;
+.card-4:hover{
+    background-color: yellow;
 }
-
-.icon:hover{
-    color:white;
-}
-
-.icon-list li:nth-child(1)::before {  
-    content: "f0eb" 
-}  
-.icon-list li:nth-child(2)::before {  
-    content: "\f00c"; /* Example icon (check) */  
-}  
